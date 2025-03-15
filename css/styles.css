@@ -11,14 +11,14 @@ a {
   text-decoration: none;
 }
 .header-logo {
+  color: #4d5ae5;
+}
+.heder-logo .logo-part {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
-}
-.heder-logo .logo-part {
   color: #2e2f42;
 }
 .nav-link {
@@ -71,6 +71,9 @@ a {
   display: flex;
   justify-content: flex-start;
 }
+.item {
+  background: #fff;
+}
 .item-name {
   font-weight: 500;
   font-size: 20px;
@@ -87,6 +90,7 @@ a {
 .section-team {
   width: 1440px;
   height: 732px;
+  background: #f4f4fd;
 }
 .team {
   font-weight: 700;
@@ -125,7 +129,14 @@ a {
   height: 312px;
   background: #2e2f42;
 }
-
+.footer-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
 .logo-part-footer {
   color: #f4f4fd;
 }
