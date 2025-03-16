@@ -116,7 +116,9 @@ a {
   text-align: center;
   color: #434455;
 }
-
+.team-image {
+  background: #fff;
+}
 .team-portfolio {
   font-weight: 700;
   font-size: 36px;
