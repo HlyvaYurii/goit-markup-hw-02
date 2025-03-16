@@ -13,7 +13,8 @@ a {
 .header-logo {
   color: #4d5ae5;
 }
-.heder-logo .logo-part {
+.heder-logo,
+.logo-part {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -60,9 +61,13 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  background: #4d5ae5;
   color: #fff;
 }
-
+.main-btn:hover,
+.main-btn:focus {
+  background: #404bbf;
+}
 .item {
   background: #fff;
 }
