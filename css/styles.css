@@ -89,6 +89,9 @@ a {
 .section-team {
   background: #f4f4fd;
 }
+.list {
+  background-color: #fff;
+}
 .team {
   font-weight: 700;
   font-size: 36px;
